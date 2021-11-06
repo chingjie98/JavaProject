@@ -4,6 +4,7 @@ enum Gender {Female, Male, NonBinary};
 
 
 /**
+ * This class shows the staff name, job title, gender and employeeID
  *
  */
 
@@ -20,6 +21,9 @@ public class Staff {
         this.employeeID = employeeID;
     }
 
+    /*
+    Method retrieves the name of the staff
+     */
     public String getName() {
         return name;
     }
